@@ -17,6 +17,7 @@ BroadcastBot is a Discord bot designed to broadcast messages to specified server
 
 2. **Install Dependencies:**
 ```bash
+npm init -y
 npm install discord.js fs axios
 ```
 3. **Configure the bot:**
