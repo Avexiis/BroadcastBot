@@ -11,9 +11,9 @@ BroadcastBot is a Discord bot designed to broadcast messages to specified server
 ## Installation
 ### Git Clone:
 1. **Have Node.js installed and Clone the repository:**
-   ```bash
-   git clone https://github.com/avexiis/broadcastbot.git
-   cd broadcastbot
+```bash
+git clone https://github.com/avexiis/broadcastbot.git
+cd broadcastbot
 
 2. **Install Dependencies:**
 ```bash
@@ -79,4 +79,4 @@ Parameters:
 ## How it works
 When the /broadcast command is issued, the bot shows a modal to collect the title and description for the embed message. Once the embed is created, the bot shows a dropdown menu to select the servers to broadcast the message to. Upon confirmation, the bot sends the embed message to the selected servers using the stored webhooks.
 
-Discord limits the number of total simultaneous webhooks to 25 per interaction. To notify more than 25 servers, you wil have to run the broadcast command multiple times.
+Discord limits the number of total simultaneous webhooks to 25 per interaction. To notify more than 25 servers, you will have to run the broadcast command multiple times.
