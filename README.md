@@ -14,7 +14,7 @@ BroadcastBot is a Discord bot designed to broadcast messages to specified server
 ```bash
 git clone https://github.com/avexiis/broadcastbot.git
 cd broadcastbot
-
+```
 2. **Install Dependencies:**
 ```bash
 npm init -y
